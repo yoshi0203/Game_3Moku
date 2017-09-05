@@ -21,20 +21,22 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zPU-1V-Fz0">
-                                <rect key="frame" x="147" y="293" width="80" height="80"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zPU-1V-Fz0">
+                                <rect key="frame" x="147.5" y="293.5" width="80" height="80"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="80" id="94v-i3-R2n"/>
                                     <constraint firstAttribute="height" constant="80" id="omq-kL-60o"/>
                                 </constraints>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
                                         <integer key="value" value="2"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <action selector="evButton5:" destination="BYZ-38-t0r" eventType="touchUpInside" id="soo-AJ-oWf"/>
+                                    <action selector="evButton5:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kf0-eJ-7K2"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -44,9 +46,13 @@
                             <constraint firstItem="zPU-1V-Fz0" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="qtb-xE-cVw"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="Button5" destination="zPU-1V-Fz0" id="5G4-NA-dbh"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="290" y="130"/>
         </scene>
     </scenes>
 </document>

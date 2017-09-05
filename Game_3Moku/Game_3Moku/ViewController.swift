@@ -10,9 +10,12 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    
+    @IBOutlet weak var Button5: UIButton!
+    
     @IBAction func evButton5(_ sender: UIButton) {
+                Button5.setImage(UIImage(named: "maru.PNG"), for: UIControlState())
     }
-
     
     override func viewDidLoad() {
         super.viewDidLoad()

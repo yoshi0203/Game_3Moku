@@ -12,6 +12,7 @@
 		D7B1734F1F5D970600C8FFF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7B1734D1F5D970600C8FFF6 /* Main.storyboard */; };
 		D7B173511F5D970600C8FFF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7B173501F5D970600C8FFF6 /* Assets.xcassets */; };
 		D7B173541F5D970600C8FFF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7B173521F5D970600C8FFF6 /* LaunchScreen.storyboard */; };
+		D7B1735C1F5EDA4100C8FFF6 /* maru.PNG in Resources */ = {isa = PBXBuildFile; fileRef = D7B1735B1F5EDA4100C8FFF6 /* maru.PNG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		D7B173501F5D970600C8FFF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D7B173531F5D970600C8FFF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D7B173551F5D970600C8FFF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7B1735B1F5EDA4100C8FFF6 /* maru.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = maru.PNG; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		D7B173481F5D970600C8FFF6 /* Game_3Moku */ = {
 			isa = PBXGroup;
 			children = (
+				D7B1735B1F5EDA4100C8FFF6 /* maru.PNG */,
 				D7B173491F5D970600C8FFF6 /* AppDelegate.swift */,
 				D7B1734B1F5D970600C8FFF6 /* ViewController.swift */,
 				D7B1734D1F5D970600C8FFF6 /* Main.storyboard */,
@@ -124,6 +127,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7B1735C1F5EDA4100C8FFF6 /* maru.PNG in Resources */,
 				D7B173541F5D970600C8FFF6 /* LaunchScreen.storyboard in Resources */,
 				D7B173511F5D970600C8FFF6 /* Assets.xcassets in Resources */,
 				D7B1734F1F5D970600C8FFF6 /* Main.storyboard in Resources */,
@@ -304,6 +308,7 @@
 				D7B1735A1F5D970600C8FFF6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
