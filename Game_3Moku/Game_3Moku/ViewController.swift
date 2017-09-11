@@ -11,10 +11,18 @@ import UIKit
 class ViewController: UIViewController {
     
     
+    @IBOutlet weak var Button4: UIButton!
     @IBOutlet weak var Button5: UIButton!
+    @IBOutlet weak var Button6: UIButton!
     
+    @IBAction func evButton4(_ sender: UIButton) {
+        Button4.setImage(UIImage(named: "batu.png"), for: UIControlState())
+    }
     @IBAction func evButton5(_ sender: UIButton) {
-                Button5.setImage(UIImage(named: "maru.PNG"), for: UIControlState())
+        Button5.setImage(UIImage(named: "maru.PNG"), for: UIControlState())
+    }
+    @IBAction func evButton6(_ sender: UIButton) {
+        Button6.setImage(UIImage(named: "maru.PNG"), for: UIControlState())
     }
     
     override func viewDidLoad() {
