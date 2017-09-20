@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -75,21 +75,151 @@
                                     <action selector="evButton4:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bql-CY-Drd"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4lS-EW-XoF">
+                                <rect key="frame" x="147" y="393.5" width="80" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="1dy-gh-0O7"/>
+                                    <constraint firstAttribute="height" constant="80" id="Q7W-nm-pAL"/>
+                                </constraints>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                        <integer key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="evButton8:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vAn-Zr-fHw"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jJ1-zX-dMi">
+                                <rect key="frame" x="247.5" y="393.5" width="80" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="SVJ-3W-got"/>
+                                    <constraint firstAttribute="height" constant="80" id="dBK-N6-IQy"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                        <integer key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="evButton9:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mrl-2l-MeX"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Oxi-nR-M0m">
+                                <rect key="frame" x="47" y="393" width="80" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="H8f-7N-mWE"/>
+                                    <constraint firstAttribute="height" constant="80" id="Zbt-Jn-ggs"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                        <integer key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="evButton7:" destination="BYZ-38-t0r" eventType="touchUpInside" id="njM-eG-9GR"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ucr-8z-cmT">
+                                <rect key="frame" x="47" y="194" width="80" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="fPF-Jl-1Sy"/>
+                                    <constraint firstAttribute="width" constant="80" id="t1x-pb-PBd"/>
+                                </constraints>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                        <integer key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="evButton1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4yQ-Gd-KEM"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uC5-zn-3jr">
+                                <rect key="frame" x="147" y="194" width="80" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="HXU-Nd-5GI"/>
+                                    <constraint firstAttribute="width" constant="80" id="mqr-eG-dwW"/>
+                                </constraints>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                        <integer key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="evButton2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="g4M-0U-HYC"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L3V-kM-jdf">
+                                <rect key="frame" x="247" y="194" width="80" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="AlP-tj-LJo"/>
+                                    <constraint firstAttribute="width" constant="80" id="EQd-D5-pfT"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" title="Button"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                        <integer key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="evButton3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Dps-rz-apM"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="4lS-EW-XoF" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="100" id="4wT-dx-GG4"/>
+                            <constraint firstItem="L3V-kM-jdf" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-100" id="6Lp-4f-FwO"/>
+                            <constraint firstItem="uC5-zn-3jr" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="6Sw-wN-FnZ"/>
                             <constraint firstItem="xfO-Ig-rEh" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="7ws-cd-gGz"/>
+                            <constraint firstItem="jJ1-zX-dMi" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="100" id="Dy6-EB-ITg"/>
                             <constraint firstItem="xfO-Ig-rEh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="100" id="EMP-J9-wZX"/>
+                            <constraint firstItem="L3V-kM-jdf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="100" id="GZJ-XX-hbZ"/>
                             <constraint firstItem="zPU-1V-Fz0" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="a2o-hU-V7V"/>
                             <constraint firstItem="H2E-Qp-yT4" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="h42-Lo-v3o"/>
+                            <constraint firstItem="jJ1-zX-dMi" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="100" id="hkH-ks-bhT"/>
+                            <constraint firstItem="4lS-EW-XoF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="oXs-AH-tQV"/>
+                            <constraint firstItem="uC5-zn-3jr" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-100" id="pJn-nz-2en"/>
                             <constraint firstItem="zPU-1V-Fz0" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="qtb-xE-cVw"/>
+                            <constraint firstItem="ucr-8z-cmT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-100" id="rCS-wT-sUU"/>
+                            <constraint firstItem="ucr-8z-cmT" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-100" id="t2n-PG-jbr"/>
+                            <constraint firstItem="Oxi-nR-M0m" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-100" id="tgb-50-f6W"/>
                             <constraint firstItem="H2E-Qp-yT4" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-100" id="tmg-Zb-6rh"/>
+                            <constraint firstItem="Oxi-nR-M0m" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="100" id="yL9-lk-Rty"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="Butoon1" destination="ucr-8z-cmT" id="OI9-tR-dOf"/>
+                        <outlet property="Button1" destination="ucr-8z-cmT" id="o2f-gz-Nyx"/>
+                        <outlet property="Button2" destination="uC5-zn-3jr" id="qSX-nk-0qe"/>
+                        <outlet property="Button3" destination="L3V-kM-jdf" id="MqK-o8-Y2I"/>
                         <outlet property="Button4" destination="H2E-Qp-yT4" id="jtL-UM-S5b"/>
                         <outlet property="Button5" destination="zPU-1V-Fz0" id="5G4-NA-dbh"/>
                         <outlet property="Button6" destination="xfO-Ig-rEh" id="ND9-rf-0vJ"/>
+                        <outlet property="Button7" destination="Oxi-nR-M0m" id="zRb-bR-S0q"/>
+                        <outlet property="Button8" destination="4lS-EW-XoF" id="WB5-AX-f9y"/>
+                        <outlet property="Button9" destination="jJ1-zX-dMi" id="Hmb-NF-keJ"/>
+                        <outlet property="evButton1" destination="ucr-8z-cmT" id="w5o-sP-gcE"/>
+                        <outlet property="evButton7" destination="Oxi-nR-M0m" id="Xfv-e0-m2o"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
